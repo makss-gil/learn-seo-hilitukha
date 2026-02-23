@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /empty.html
+Disallow: /embedding.html
+Disallow: /widgets.html
+Allow: /
+
+Sitemap: https://makss-gil.github.io/learn-seo-hilitukha/sitemap.xml
