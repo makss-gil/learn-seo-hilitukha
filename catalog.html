@@ -1,9 +1,11 @@
 <!doctype html>
-<html>
+<html lang="uk">
 
 <head>
-  <title>Project Title</title>
+  <title>Каталог вин Nice Wine Луцьк | Червоне, біле та рожеве</title>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Шукаєте де купити хороше вино в Луцьку? Каталог Nice Wine пропонує популярні червоні, білі та рожеві вина. Обирайте свій ідеальний напій.">
+  
   <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
@@ -11,9 +13,11 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/menu.js"></script>
   <script src="js/footer.js"></script>
+  
   <style>
     .menu-index {
       color: rgb(255, 255, 255) !important;
@@ -24,40 +28,119 @@
 </head>
 
 <body>
-  <div class="menu-container"></div>
-  <div class="content-container">
-    <div class="banner" style="background: url('img/dummy-background.jpeg') no-repeat center; background-size: cover; height: 300px;">
-      <div class="banner-table flex-column">
+  <header class="menu-container"></header>
+
+  <main class="content-container">
+    
+    <section class="banner" style="background: url('img/dummy-background.jpeg') no-repeat center; background-size: cover; height: 300px;">
+      <div class="banner-table flex-column" style="background-color: rgba(0, 0, 0, 0.6);">
         <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h1 class="add-top-margin-small">Каталог вин</h1>
-            <p class="text">Оберіть категорію напоїв до вашого столу.</p>
+          <div class="flex-item flex-column text-center">
+            <h1 class="add-top-margin-small" style="color: #fff;">Каталог вин</h1>
+            <p class="text" style="color: #f1f1f1; font-size: 1.2em;">
+              Великий вибір напоїв для будь-якої події.
+            </p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <div class="content">
       <div class="content-table flex-column">
-        <div class="flex-row">
+
+        <nav class="flex-row add-top-margin-small">
           <div class="flex-item flex-column">
-            <h2>Наші категорії</h2>
-            <div class="gallery add-top-margin-small">
-              <a href="red-wine.html" class="flex-column">
-                <img src="img/dummay-img.png" alt="Червоне вино">
-                <div>Червоні вина (Сухі, Напівсолодкі)</div>
-              </a>
-              <a href="white-wine.html" class="flex-column">
-                <img src="img/dummay-img.png" alt="Біле вино">
-                <div>Білі вина (Сухі, Десертні)</div>
-              </a>
+            <p class="text text-small">
+              <a href="index.html">Головна сторінка</a> / Каталог вин
+            </p>
+            <hr>
+          </div>
+        </nav>
+
+        <section class="flex-row">
+          <div class="flex-item flex-column">
+            <h2>Як обрати вино у нашому магазині</h2>
+            <p class="text">
+              У магазині <strong>Nice Wine</strong> в Луцьку ми зібрали популярні сорти з різних країн. Незалежно від того, чи плануєте ви тиху вечерю вдома, чи велике свято, тут можна знайти напій до смаку. Щоб вам було простіше орієнтуватися, ми поділили наш асортимент на три основні категорії. Також радимо заглянути в наш <a href="blog.html">блог про вино</a>, де ми регулярно публікуємо поради щодо вибору.
+            </p>
+          </div>
+        </section>
+
+        <article class="flex-row add-top-margin">
+          <div class="flex-item flex-item-stretch flex-column">
+            <a href="red-wines.html" class="image max-width-400">
+              <img src="img/serge-esteve-AZW8IbilGLg-unsplash.jpg" alt="Келих насиченого червоного вина">
+            </a>
+          </div>
+          <div class="flex-item flex-item-stretch-4 flex-column">
+            <h3><a href="red-wines.html" class="highlight-text">Червоні вина</a></h3>
+            <p class="text">
+              Червоне вино чудово пасує до м'ясних страв, сирів та теплої компанії. У цій категорії ви знайдете як легкі варіанти на кшталт Піно Нуар, так і більш насичені, терпкі напої, як Каберне Совіньйон або Мальбек. 
+            </p>
+            <ul>
+              <li>Популярні країни: Франція, Італія, Іспанія.</li>
+              <li>Температура подачі: 16-18°C.</li>
+            </ul>
+            <a class="custom-button custom-button-primary" href="red-wines.html">Дивитись червоні вина</a>
+          </div>
+        </article>
+
+        <article class="flex-row add-top-margin">
+          <div class="flex-item flex-item-stretch flex-column">
+            <a href="white-wines.html" class="image max-width-400">
+              <img src="img/rafael-barquero-bUy1OKVMCJ0-unsplash.jpg" alt="Охолоджене біле вино у келиху">
+            </a>
+          </div>
+          <div class="flex-item flex-item-stretch-4 flex-column">
+            <h3><a href="white-wines.html" class="highlight-text">Білі вина</a></h3>
+            <p class="text">
+              Білі сорти зазвичай легші та мають приємну кислинку. Вони ідеально підходять до риби, морепродуктів або як самостійний напій у спекотний літній день. Зверніть увагу на наше Совіньйон Блан та класичне Шардоне.
+            </p>
+            <ul>
+              <li>Популярні країни: Німеччина, Нова Зеландія, Франція.</li>
+              <li>Температура подачі: 8-12°C.</li>
+            </ul>
+            <a class="custom-button custom-button-primary" href="white-wines.html">Дивитись білі вина</a>
+          </div>
+        </article>
+
+        <article class="flex-row add-top-margin">
+          <div class="flex-item flex-item-stretch flex-column">
+            <a href="rose-wines.html" class="image max-width-400">
+              <img src="img/dummay-img.png" alt="Пляшка та келих рожевого вина">
+            </a>
+          </div>
+          <div class="flex-item flex-item-stretch-4 flex-column">
+            <h3><a href="rose-wines.html" class="highlight-text">Рожеві вина (Rose)</a></h3>
+            <p class="text">
+              Рожеве вино — це золота середина між свіжістю білого та ягідними нотами червоного. Воно дуже універсальне і підходить майже до будь-якої їжі: від легких салатів до фруктових десертів. 
+            </p>
+            <ul>
+              <li>Популярні країни: Франція (Прованс), Іспанія.</li>
+              <li>Температура подачі: 10-12°C.</li>
+            </ul>
+            <a class="custom-button custom-button-primary" href="rose-wines.html">Дивитись рожеві вина</a>
+          </div>
+        </article>
+
+        <section class="flex-row add-top-margin-large">
+          <div class="flex-item flex-column text-center">
+            <h2>Не знаєте, що обрати?</h2>
+            <hr>
+            <p class="text">
+              Якщо вам потрібна допомога з вибором вина на подарунок або для свята, наші консультанти з радістю підкажуть кращі варіанти. Перейдіть на сторінку контактів, щоб зв'язатися з нами або знайти наш магазин.
+            </p>
+            <div class="control-group add-top-margin-small">
+              <a class="custom-button custom-button-info" href="contact.html">Перейти до контактів</a>
             </div>
           </div>
-        </div>
+        </section>
+
       </div>
     </div>
-  </div>
-  <div class="footer-container"></div>
+  </main>
+
+  <footer class="footer-container"></footer>
 </body>
 
 </html>
