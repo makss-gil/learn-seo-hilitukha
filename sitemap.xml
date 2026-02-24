@@ -1,43 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://makss-gil.github.io/learn-seo-hilitukha/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://makss-gil.github.io/learn-seo-hilitukha/catalog.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://makss-gil.github.io/learn-seo-hilitukha/red-wine.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://makss-gil.github.io/learn-seo-hilitukha/white-wine.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://makss-gil.github.io/learn-seo-hilitukha/blog.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://makss-gil.github.io/learn-seo-hilitukha/product-merlot.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://makss-gil.github.io/learn-seo-hilitukha/product-cabernet.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://makss-gil.github.io/learn-seo-hilitukha/product-chardonnay.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://makss-gil.github.io/learn-seo-hilitukha/product-sauvignon.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://makss-gil.github.io/learn-seo-hilitukha/product-rose.html</loc>
-    <priority>0.6</priority>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://makss-gil.github.io/learn-seo-hilitukha/</loc>
+  <lastmod>2026-02-23T19:53:35+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://makss-gil.github.io/learn-seo-hilitukha/catalog.html</loc>
+  <lastmod>2026-02-23T19:53:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makss-gil.github.io/learn-seo-hilitukha/contact.html</loc>
+  <lastmod>2026-02-23T19:53:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makss-gil.github.io/learn-seo-hilitukha/blog.html</loc>
+  <lastmod>2026-02-23T19:53:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makss-gil.github.io/learn-seo-hilitukha/index.html</loc>
+  <lastmod>2026-02-23T19:53:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makss-gil.github.io/learn-seo-hilitukha/red-wines.html</loc>
+  <lastmod>2026-02-23T19:53:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makss-gil.github.io/learn-seo-hilitukha/white-wines.html</loc>
+  <lastmod>2026-02-23T19:53:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makss-gil.github.io/learn-seo-hilitukha/rose-wines.html</loc>
+  <lastmod>2026-02-23T19:53:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makss-gil.github.io/learn-seo-hilitukha/faq.html</loc>
+  <lastmod>2026-02-23T19:53:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
