@@ -119,7 +119,7 @@
             </p>
 
             <div class="control-group add-top-margin-small">
-              <a class="custom-button custom-button-primary cta-button" href="catalog.html">Перейти до каталогу</a>
+              <a class="custom-button custom-button-primary cta-button" id="ab-test-btn" href="catalog.html">Перейти до каталогу</a>
               <a class="custom-button custom-button-info cta-button" href="blog.html">Читати блог</a>
             </div>
           </div>
@@ -236,6 +236,24 @@
 
   <footer class="footer-container"></footer>
   <script src="js/gtag-events.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var btn = document.getElementById("ab-test-btn");
+
+      if (btn) {
+        var variant = Math.random() < 0.5 ? "A" : "B";
+
+        if (variant === "B") {
+          btn.innerText = "Обрати своє вино";
+          btn.style.backgroundColor = "#5c0617";
+          btn.style.color = "#ffffff";
+        }
+
+        console.log("A/B Test запущено. Користувач бачить варіант:", variant);
+      }
+    });
+  </script>
 
 </body>
 
